@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Profile Terminal"
+  short_description: "Build a personalized terminal-style GitHub profile"
+  default_prompt: "Use $github-profile-terminal to build my GitHub profile."

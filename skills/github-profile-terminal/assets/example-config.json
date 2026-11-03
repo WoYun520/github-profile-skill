@@ -1,0 +1,39 @@
+{
+  "username": "example-user",
+  "display_name": "Alex · 星河",
+  "focus": "Creative tools · open source",
+  "workflow": "Code · design · experiments",
+  "tagline": "BUILDING SMALL WORLDS, ONE IDEA AT A TIME",
+  "theme": "violet",
+  "projects": [
+    {
+      "name": "Little Atlas",
+      "description": "a creative playground",
+      "url": "https://example.com/atlas"
+    },
+    {
+      "name": "Open Notes",
+      "description": "ideas into useful tools",
+      "url": "https://example.com/notes"
+    },
+    {
+      "name": "Star Garden",
+      "description": "web experiments",
+      "url": "https://example.com/garden"
+    }
+  ],
+  "contacts": [
+    {
+      "label": "Web",
+      "value": "example.com",
+      "url": "https://example.com"
+    },
+    {
+      "label": "Social",
+      "value": "@example",
+      "url": "https://example.com/social"
+    }
+  ],
+  "include_forks": false,
+  "excluded_repos": []
+}
