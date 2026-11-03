@@ -17,3 +17,16 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - run: python -m pip install Pillow
       - run: python -m unittest discover -s tests -v
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify installation from the public repository
+        run: |
+          mkdir -p "$RUNNER_TEMP/profile-install-check"
+          cd "$RUNNER_TEMP/profile-install-check"
+          npx --yes skills@latest add WoYun520/github-profile-skill --skill github-profile-terminal --agent codex --yes
+          test -f .agents/skills/github-profile-terminal/SKILL.md
+          test -f .agents/skills/github-profile-terminal/scripts/create_profile.py

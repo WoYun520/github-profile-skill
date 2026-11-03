@@ -16,7 +16,7 @@
 
 ## 安装 Skill
 
-在终端运行：
+需要 Node.js 22.20 或更新版本。在终端运行：
 
 ```bash
 npx skills add WoYun520/github-profile-skill --skill github-profile-terminal
